@@ -1,0 +1,4 @@
+import pickle
+
+with open("labels.pkl", "wb") as f:
+    pickle.dump(label_map, f)
