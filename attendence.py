@@ -10,7 +10,6 @@ def mark_attendance(name):
     )
 
     cursor = connection.cursor()
-
     today = datetime.now().strftime("%Y-%m-%d")
     current_time = datetime.now().strftime("%H:%M:%S")
 
